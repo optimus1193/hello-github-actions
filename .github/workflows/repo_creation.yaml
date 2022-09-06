@@ -9,7 +9,7 @@ on:
 
 jobs:
   create-repository:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     name: Creating Organization Repository
     steps:
       - name: Use Node.js
